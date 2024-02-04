@@ -1,15 +1,15 @@
 Config = {}
 Config.UsingTarget = GetConvar('UseTarget', 'false') == 'true'
-Config.Commission = 0.10                -- Percent that goes to sales person from a full car sale 10%
-Config.FinanceCommission = 0.05         -- Percent that goes to sales person from a finance sale 5%
-Config.PaymentWarning = 10              -- time in minutes that player has to make payment before repo
-Config.PaymentInterval = 24             -- time in hours between payment being due
-Config.MinimumDown = 10                 -- minimum percentage allowed down
-Config.MaximumPayments = 24             -- maximum payments allowed
-Config.PreventFinanceSelling = false    -- allow/prevent players from using /transfervehicle if financed
-Config.FilterByMake = false             -- adds a make list before selecting category in shops
-Config.SortAlphabetically = true        -- will sort make, category, and vehicle selection menus alphabetically
-Config.HideCategorySelectForOne = false -- will hide the category selection menu if a shop only sells one category of vehicle or a make has only one category
+Config.Commission = 0.10                              -- Percent that goes to sales person from a full car sale 10%
+Config.FinanceCommission = 0.05                       -- Percent that goes to sales person from a finance sale 5%
+Config.PaymentWarning = 10                            -- time in minutes that player has to make payment before repo
+Config.PaymentInterval = 24                           -- time in hours between payment being due
+Config.MinimumDown = 10                               -- minimum percentage allowed down
+Config.MaximumPayments = 24                           -- maximum payments allowed
+Config.PreventFinanceSelling = false                  -- allow/prevent players from using /transfervehicle if financed
+Config.FilterByMake = false                           -- adds a make list before selecting category in shops
+Config.SortAlphabetically = true                      -- will sort make, category, and vehicle selection menus alphabetically
+Config.HideCategorySelectForOne = false                -- will hide the category selection menu if a shop only sells one category of vehicle or a make has only one category
 Config.Shops = {
     ['pdm'] = {
         ['Type'] = 'free-use', -- no player interaction is required to purchase a car
@@ -33,7 +33,7 @@ Config.Shops = {
         },
         ['Job'] = 'none',                                            -- Name of job or none
         ['ShopLabel'] = 'Premium Deluxe Motorsport',                 -- Blip name
-        ['showBlip'] = false,                                        -- true or false
+        ['showBlip'] = false,                                         -- true or false
         ['blipSprite'] = 326,                                        -- Blip sprite
         ['blipColor'] = 3,                                           -- Blip color
         ['TestDriveTimeLimit'] = 0.5,                                -- Time in minutes until the vehicle gets deleted
@@ -45,23 +45,23 @@ Config.Shops = {
         ['ShowroomVehicles'] = {
             [1] = {
                 coords = vector4(-36.31, -1100.76, 25.52, 167.41), -- where the vehicle will spawn on display
-                defaultVehicle = 'greenwood',                      -- Default display vehicle
-                chosenVehicle = 'greenwood',                       -- Same as default but is dynamically changed when swapping vehicles
+                defaultVehicle = 'greenwood', -- Default display vehicle
+                chosenVehicle = 'greenwood', -- Same as default but is dynamically changed when swapping vehicles
             },
             [2] = {
                 coords = vector4(-40.2, -1097.8, 25.52, 165.87), -- where the vehicle will spawn on display  vector4(-40.2, -1097.8, 26.42, 153.85)
-                defaultVehicle = 'blista2',                      -- Default display vehicle
-                chosenVehicle = 'blista2',                       -- Same as default but is dynamically changed when swapping vehicles
+                defaultVehicle = 'blista2', -- Default display vehicle
+                chosenVehicle = 'blista2', -- Same as default but is dynamically changed when swapping vehicles
             },
             [3] = {
-                coords = vector4(-46.18, -1097.96, 25.52, 122.21), -- where the vehicle will spawn on display
-                defaultVehicle = 'rhapsody',                       -- Default display vehicle
-                chosenVehicle = 'rhapsody',                        -- Same as default but is dynamically changed when swapping vehicles
+                coords = vector4(-46.18, -1097.96, 25.52, 122.21), -- where the vehicle will spawn on display  
+                defaultVehicle = 'rhapsody', -- Default display vehicle
+                chosenVehicle = 'rhapsody', -- Same as default but is dynamically changed when swapping vehicles
             },
             [4] = {
-                coords = vector4(-48.35, -1093.54, 25.52, 98.97), -- where the vehicle will spawn on display
-                defaultVehicle = 'vigero',                        -- Default display vehicle
-                chosenVehicle = 'vigero',                         -- Same as default but is dynamically changed when swapping vehicles
+                coords = vector4(-48.35, -1093.54, 25.52, 98.97), -- where the vehicle will spawn on display  
+                defaultVehicle = 'vigero', -- Default display vehicle
+                chosenVehicle = 'vigero', -- Same as default but is dynamically changed when swapping vehicles
             }
         },
     },
@@ -85,7 +85,7 @@ Config.Shops = {
         },
         ['Job'] = 'cardealer', -- Name of job or none
         ['ShopLabel'] = 'Luxury Vehicle Shop',
-        ['showBlip'] = false,  -- true or false
+        ['showBlip'] = false,   -- true or false
         ['blipSprite'] = 326,  -- Blip sprite
         ['blipColor'] = 3,     -- Blip color
         ['TestDriveTimeLimit'] = 0.5,
