@@ -307,23 +307,23 @@ Config.Shops = {
         ['ShowroomVehicles'] = {
             [1] = {
                 coords = vector4(-876.97, -194.02, 36.87, 338.56), --
-                defaultVehicle = 'akuma',
-                chosenVehicle = 'akuma'
+                defaultVehicle = 'fcr',
+                chosenVehicle = 'fcr'
             },
             [2] = {
                 coords = vector4(-878.45, -191.3, 36.87, 333.92), --
-                defaultVehicle = 'bati',
-                chosenVehicle = 'bati'
+                defaultVehicle = 'fcr2',
+                chosenVehicle = 'fcr2'
             },
             [3] = {
                 coords = vector4(-879.97, -188.75, 36.87, 333.06), --
-                defaultVehicle = 'diablous2',
-                chosenVehicle = 'diablous2'
+                defaultVehicle = 'pcj',
+                chosenVehicle = 'pcj'
             },
             [4] = {
                 coords = vector4(-876.4, -183.61, 36.87, 151.08), --
-                defaultVehicle = 'double',
-                chosenVehicle = 'double'
+                defaultVehicle = 'ruffian',
+                chosenVehicle = 'ruffian'
             },
             [5] = {
                 coords = vector4(-871.8, -184.23, 36.87, 158.29), --
@@ -342,8 +342,8 @@ Config.Shops = {
             },
             [8] = {
                 coords = vector4(-864.0, -197.63, 36.87, 155.58), --
-                defaultVehicle = 'shinobi',
-                chosenVehicle = 'shinobi'
+                defaultVehicle = 'ruffian',
+                chosenVehicle = 'ruffian'
             },
             [9] = {
                 coords = vector4(-862.63, -199.95, 36.87, 155.09), --
@@ -352,8 +352,8 @@ Config.Shops = {
             },
             [10] = {
                 coords = vector4(-861.27, -202.3, 36.87, 151.87), --
-                defaultVehicle = 'esskey',
-                chosenVehicle = 'esskey'
+                defaultVehicle = 'vader',
+                chosenVehicle = 'vader'
             },
         }
     },                         -- Add your next table under this comma
