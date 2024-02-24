@@ -432,8 +432,8 @@ Config.Shops = {
             },
             [10] = {
                 coords = vector4(25.25, 6462.74, 30.43, 180.53), --
-                defaultVehicle = 'innovation',
-                chosenVehicle = 'innovation'
+                defaultVehicle = 'chimera',
+                chosenVehicle = 'chimera'
             },
             [11] = {
                 coords = vector4(27.56, 6465.0, 30.43, 195.94), --
