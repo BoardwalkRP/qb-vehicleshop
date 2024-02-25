@@ -2,7 +2,7 @@ Config = {}
 Config.UsingTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.Commission = 0.10                              -- Percent that goes to sales person from a full car sale 10%
 Config.FinanceCommission = 0.05                       -- Percent that goes to sales person from a finance sale 5%
-Config.PaymentWarning = 10                            -- time in minutes that player has to make payment before repo
+Config.PaymentWarning = 30                            -- time in minutes that player has to make payment before repo
 Config.PaymentInterval = 24                           -- time in hours between payment being due
 Config.MinimumDown = 10                               -- minimum percentage allowed down
 Config.MaximumPayments = 24                           -- maximum payments allowed
@@ -417,18 +417,18 @@ Config.Shops = {
             },
             [7] = {
                 coords = vector4(32.27, 6452.81, 30.43, 17.31), --
-                defaultVehicle = 'deathbike',
-                chosenVehicle = 'deathbike'
+                defaultVehicle = 'zombiea',
+                chosenVehicle = 'zombiea'
             },
             [8] = {
                 coords = vector4(30.32, 6450.92, 30.43, 21.59), --
-                defaultVehicle = 'gargoyle',
-                chosenVehicle = 'gargoyle'
+                defaultVehicle = 'zombieb',
+                chosenVehicle = 'zombieb'
             },
             [9] = {
                 coords = vector4(27.66, 6449.07, 30.43, 37.08), --
-                defaultVehicle = 'hexer',
-                chosenVehicle = 'hexer'
+                defaultVehicle = 'wolfsbane',
+                chosenVehicle = 'wolfsbane'
             },
             [10] = {
                 coords = vector4(25.25, 6462.74, 30.43, 180.53), --
